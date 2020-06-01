@@ -1,0 +1,117 @@
+body {
+	background-color: #e5e5e5;
+}
+
+.napis {
+	width: 100%;
+}
+
+.w, .y, .z, .a, .n, .i, .e {
+	display: grid;
+}
+
+.character {
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+	
+}
+
+.w {
+	grid-template-columns: repeat(5, 20px);
+	grid-template-rows: repeat(4, 20px);
+	margin: 1px;
+}
+
+.y {
+	grid-template-columns: repeat(3, 20px);
+	grid-template-rows: repeat(4, 20px);
+	margin: 1px;
+}
+
+.z {
+	grid-template-columns: repeat(3, 20px);
+	grid-template-rows: repeat(4, 20px);
+	margin: 1px;
+}
+
+.a {
+	grid-template-columns: repeat(3, 20px);
+	grid-template-rows: repeat(4, 20px);
+	margin: 1px;
+}
+
+.n {
+	grid-template-columns: repeat(4, 20px);
+	grid-template-rows: repeat(4, 20px);
+	margin: 1px;
+}
+
+.i {
+	grid-template-columns: 20px;
+	grid-template-rows: repeat(4, 20px);
+	margin: 1px;
+}
+
+.e {
+	grid-template-columns: repeat(3, 20px);
+	grid-template-rows: repeat(4, 20px);
+	margin: 1px;
+}
+
+h1 {
+	font-family: 'kaushan script';
+	margin: auto;
+}
+
+.person {
+	display: grid;
+	grid-template-columns: repeat(9, 100px);
+	grid-template-rows: repeat(13, 100px);
+	
+}
+
+.unit {
+	width: 100px;
+	height: 100px;
+}
+
+.p {
+	background-color: #e5e5e5;
+}
+
+.wl {
+	background-color: #f0e67d;
+}
+
+.o {
+	background-color: #31302f;
+}
+
+.b3 {
+	background-color: #78b5b3;
+}
+
+.b2 {
+	background-color: #80b8ba;
+}
+
+.b4 {
+	background-color: #93c1c2;
+}
+
+.b {
+	background-color: #70b2b0;
+}
+
+.s {
+	background-color: #e9c8ba;
+}
+
+.sp {
+	background-color: #434344;
+}
+
+.po {
+	background-color: #d18aa7;
+}
